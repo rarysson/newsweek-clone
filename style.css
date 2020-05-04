@@ -1,3 +1,90 @@
 body {
 	background-color: #f4f5f6;
+	font-family: "Roboto", sans-serif;
+}
+
+main {
+	background-color: white;
+}
+
+.container-xl {
+	max-width: 1310px;
+}
+
+.navbar {
+	color: #f4f5f6;
+	background-color: #f72210;
+}
+
+.weather-container {
+	font-size: 14px;
+}
+
+.weather-icon {
+	width: 24px;
+	height: 24px;
+}
+
+.logo-sm {
+	width: 132px;
+	height: 20px;
+	filter: invert(1);
+}
+
+.logo-lg {
+	width: 396px;
+	height: 60px;
+	filter: invert(1);
+}
+
+.sign-in-button {
+	font-weight: bold;
+	font-size: 17px;
+	color: #f4f5f6;
+	background-color: transparent;
+	border: none;
+}
+
+.subscribe-button {
+	font-weight: bold;
+	font-size: 17px;
+	color: #f72210;
+	background-color: #f4f5f6;
+	border: none;
+}
+
+.nav::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 70px;
+	border-left: 12px solid white;
+	border-top: 13px solid #f72210;
+}
+
+.nav {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.nav-link:not(:first-child) {
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav-link:hover {
+	color: #f72210;
+}
+
+.search {
+	border: none;
+	width: 90px;
+	height: 20px;
+	background: url("https://g.newsweek.com/www/images/icon-search-glass.svg") right center/contain no-repeat;
 }
