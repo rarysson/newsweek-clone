@@ -88,3 +88,26 @@ main {
 	height: 20px;
 	background: url("https://g.newsweek.com/www/images/icon-search-glass.svg") right center/contain no-repeat;
 }
+
+.title-section {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.title-article {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.title-img {
+	font-weight: bold;
+	color: #f72210;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.subtitle {
+	font-size: 14px;
+	font-weight: lighter;
+}
