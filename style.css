@@ -111,3 +111,44 @@ main {
 	font-size: 14px;
 	font-weight: lighter;
 }
+
+.featured-stories,
+.extra-news {
+	bottom: 0;
+	align-self: end;
+}
+
+@media (max-width: 992px) {
+	.featured-stories {
+		flex-basis: 40%;
+	}
+
+	.main-stories {
+		flex-basis: 60%;
+	}
+
+	.extra-news {
+		top: 0;
+		flex-basis: 100%;
+	}
+
+	.newsletter {
+		width: 285px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 768px) {
+	.featured-stories,
+	.main-stories {
+		flex-basis: 100%;
+	}
+
+	.featured-stories {
+		position: relative !important;
+	}
+
+	.main-stories {
+		order: -1;
+	}
+}
