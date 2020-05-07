@@ -201,3 +201,31 @@ main {
 		height: auto;
 	}
 }
+
+.pick-story-card {
+	width: 23%;
+}
+
+.pick-story-card img {
+	height: 10vw;
+}
+
+@media (max-width: 992px) {
+	.pick-story-card {
+		width: 48%;
+	}
+
+	.pick-story-card img {
+		height: 30vw;
+	}
+}
+
+@media (max-width: 768px) {
+	.pick-story-card {
+		width: 100%;
+	}
+
+	.pick-story-card img {
+		height: auto;
+	}
+}
