@@ -299,3 +299,28 @@ main {
 		height: 160px;
 	}
 }
+
+
+.logo-footer {
+	width: 236px;
+	height: 36px;
+	fill: #f72210;
+}
+
+.social {
+	color: gray;
+	margin: 0 5px;
+}
+
+.social:hover {
+	cursor: pointer;
+	color: var(--blue);
+}
+
+@media (max-width: 768px) {
+	.logos-footer-container,
+	.logo-footer-container {
+		flex-direction: column;
+		align-items: flex-start !important;
+	}
+}
