@@ -229,3 +229,19 @@ main {
 		height: auto;
 	}
 }
+
+.news-header-title {
+	font-size: 22px;
+	font-weight: bold;
+	color: #f72210;
+}
+
+.news {
+	width: 30%;
+}
+
+@media (max-width: 768px) {
+	.news {
+		width: 100%;
+	}
+}
