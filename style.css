@@ -245,3 +245,57 @@ main {
 		width: 100%;
 	}
 }
+
+.newsletter-bg {
+	background: rgba(0, 0, 0, 0) url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat scroll center center / cover;
+}
+
+.btn-footer {
+	color: white;
+	background-color: #f72210;
+}
+
+.secondary-magazine {
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	top: 5%;
+}
+
+@media (max-width: 992px) {
+	.subscribe-footer,
+	.newsletter-footer {
+		width: 100% !important;
+	}
+
+	.newsletter-bg {
+		width: 25% !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.subscribe-footer {
+		margin-bottom: 30px;
+	}
+
+	.subscribe-footer-content,
+	.newsletter-footer-content {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.subscribe-footer-content > div:nth-child(2) {
+		margin: 0 !important;
+		padding: 0 !important;
+		margin-top: 30px !important;
+	}
+
+	.newsletter-bg,
+	.newsletter-text {
+		width: 100% !important;
+	}
+
+	.newsletter-bg {
+		height: 160px;
+	}
+}
