@@ -7,6 +7,10 @@ main {
 	background-color: white;
 }
 
+img:not(.rounded) {
+	background-color: lightgray;
+}
+
 .container-xl {
 	max-width: 1310px;
 }
@@ -86,14 +90,16 @@ main {
 	border: none;
 	width: 90px;
 	height: 20px;
-	background: url("https://g.newsweek.com/www/images/icon-search-glass.svg") right center/contain no-repeat;
+	background: url("https://g.newsweek.com/www/images/icon-search-glass.svg")
+		right center/contain no-repeat;
 }
 
 .logo {
 	display: block;
 	width: 45px;
 	height: 35px;
-	background: url('https://g.newsweek.com/www/images/logo-n1.svg') center/contain no-repeat #f72210;
+	background: url("https://g.newsweek.com/www/images/logo-n1.svg")
+		center/contain no-repeat #f72210;
 }
 
 .title-section {
@@ -247,7 +253,9 @@ main {
 }
 
 .newsletter-bg {
-	background: rgba(0, 0, 0, 0) url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat scroll center center / cover;
+	background: rgba(0, 0, 0, 0)
+		url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
+		no-repeat scroll center center / cover;
 }
 
 .btn-footer {
@@ -299,7 +307,6 @@ main {
 		height: 160px;
 	}
 }
-
 
 .logo-footer {
 	width: 236px;
